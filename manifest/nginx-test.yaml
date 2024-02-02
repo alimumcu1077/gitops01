@@ -1,0 +1,28 @@
+[0m[0KapiVersion: apps/v1[0K
+kind: Deployment[0K
+metadata:[0K
+  creationTimestamp: null[0K
+  labels:[0K
+    app: nginx-test[0K
+  name: nginx-test[0K
+  namespace: test[0K
+spec:[0K
+  replicas: 1[0K
+  selector:[0K
+    matchLabels:[0K
+      app: nginx-test[0K
+  strategy: {}[0K
+  template:[0K
+    metadata:[0K
+      creationTimestamp: null[0K
+      labels:[0K
+        app: nginx-test[0K
+    spec:[0K
+      containers:[0K
+      - image: nginx[0K
+        name: nginx[0K
+        ports:[0K
+        - containerPort: 80[0K
+        resources: {}[0K
+status: {}[0K
+[0K
